@@ -34,6 +34,7 @@ The following section briefly describes a study that could be used to compare th
 * Cost
 * Fuel Efficiency (mpg)
 * Consumer Rating
+
 For each metric, the null hypothesis would be that the MechaCar and its competition do NOT differ. For example, the null hypothesis would for the cost variable would be that the MechaCar costs the same as its competition. The alternative hypothesis would be that the MechaCar and its competition do differ on the respective variable. For example, one of the alternative hypothesis would be that the cost is different between the two cars.
 
 To test the vehicle safety rating and consumer rating hypotheses, I would use a chi-squared test because it would determine if there is a statistical difference in the categorical frequencies between groups. Is the MechaCar getting more 5 star ratings vs its competition? How about 4 stars, etc? 
