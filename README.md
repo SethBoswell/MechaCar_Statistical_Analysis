@@ -28,6 +28,25 @@ Both Lot 1 and Lot 2 have variances below 100; however, Lot 3's variance is 170,
 
 ## T-Tests on Suspension Coils
 
+The results of the different t-tests are as follows:
+
+![Total T-Test](https://github.com/SethBoswell/MechaCar_Statistical_Analysis/blob/main/Images/Total%20T-Test.png)
+
+Across all lots, the p-value is 0.06, which is above our threshold of 0.05. Thus, we cannot reject the null hypthoesis and we assume that sample is not statistically different from the mean PSI, which is 1500. 
+
+![Lot 1 T-Test](https://github.com/SethBoswell/MechaCar_Statistical_Analysis/blob/main/Images/Lot1%20T-Test.png)
+
+For Lot 1, the p-value is 1, which is way above our threshold of 0.05. This is because the sample mean and population mean are the same, so we conclude that they are not statistically different from one another.
+
+![Lot 2 T-Test](https://github.com/SethBoswell/MechaCar_Statistical_Analysis/blob/main/Images/Lot2%20T-Test.png)
+
+For Lot 2, the p-value is 0.6072, which is also above our threshold of 0.05. Once again, we conclude that the sample mean for Lot 2 and the population mean of 1500 are not statistically different. 
+
+![Lot 3 T-Test](https://github.com/SethBoswell/MechaCar_Statistical_Analysis/blob/main/Images/Lot3%20T-Test.png)
+
+
+For Lot 3, the p-value is 0.04, which is below our threshold of 0.05. We can now conclude that Lot 3's PSI is statistically different from the population mean of 1500. 
+
 ## Study Design: MechaCar vs Competition
 The following section briefly describes a study that could be used to compare the MechaCar vs its competition. To begin, I would use the following metrics to judge the performance of the MechaCar and it's competition:
 * Vehicle Safety Rating
