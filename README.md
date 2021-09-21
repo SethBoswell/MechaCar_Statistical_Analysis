@@ -26,3 +26,18 @@ As you can see from the above, the variance of all manufacturing lots in total i
 
 Both Lot 1 and Lot 2 have variances below 100; however, Lot 3's variance is 170, so it does not meet the design specification. 
 
+## T-Tests on Suspension Coils
+
+## Study Design: MechaCar vs Competition
+The following section briefly describes a study that could be used to compare the MechaCar vs its competition. To begin, I would use the following metrics to judge the performance of the MechaCar and it's competition:
+* Vehicle Safety Rating
+* Cost
+* Fuel Efficiency (mpg)
+* Consumer Rating
+For each metric, the null hypothesis would be that the MechaCar and its competition do NOT differ. For example, the null hypothesis would for the cost variable would be that the MechaCar costs the same as its competition. The alternative hypothesis would be that the MechaCar and its competition do differ on the respective variable. For example, one of the alternative hypothesis would be that the cost is different between the two cars.
+
+To test the vehicle safety rating and consumer rating hypotheses, I would use a chi-squared test because it would determine if there is a statistical difference in the categorical frequencies between groups. Is the MechaCar getting more 5 star ratings vs its competition? How about 4 stars, etc? 
+
+To test the cost and fuel efficiency variables, I would use a two-sample t-test because it would compare the mean cost/fuel efficiency of the MechaCar vs its competition and see if there is a difference. If there is a significant decrease in cost or fuel efficiency, then we could reject the null hypothesis and say that one is likely better than the other with regards to that specific metric. 
+
+To run these statistical tests, I would need to collect the data for each statistic. I would need to use a database that rates the safety of each vehicle on a categorical scale, as well as find out its listing price from dealerships, the average fuel efficiency on different terrains, and how many stars consumers give each vehicle. 
